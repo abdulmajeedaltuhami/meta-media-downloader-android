@@ -2,6 +2,12 @@
 
 نسخة Android أصلية من برنامج Local Web السابق. لا تحتاج Termux أو Pydroid أو Telegram: محرك yt-dlp وFFmpeg مضمّنان داخل التطبيق عبر مكتبة Android، وتعمل الواجهة العربية RTL داخل WebView محلي.
 
+## تنزيل APK
+
+حمّل الإصدار المجاني القابل للتثبيت من [GitHub Releases](https://github.com/abdulmajeedaltuhami/meta-media-downloader-android/releases/latest). الإصدار الحالي هو APK Universal موقّع Debug للتجربة، وحجمه كبير لأن yt-dlp وFFmpeg وبيئة Python مضمّنة داخله.
+
+> هذا المشروع متاح بصيغة source-available للاستخدام غير التجاري تحت PolyForm Noncommercial 1.0.0. القيود غير التجارية تعني أنه ليس ترخيصاً معتمداً من OSI باسم Open Source بالمعنى القانوني الصارم، رغم أن الشفرة متاحة للقراءة والتعديل والاستخدام الشخصي.
+
 ## الوظائف
 
 - YouTube وFacebook وInstagram وThreads وTikTok للروابط العامة التي يدعمها yt-dlp.

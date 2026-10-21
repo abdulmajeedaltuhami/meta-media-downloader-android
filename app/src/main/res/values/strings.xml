@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">منزّل الوسائط</string>
+
+    <!-- التنقل -->
+    <string name="nav_download">التنزيل</string>
+    <string name="nav_downloads">التحميلات</string>
+    <string name="nav_status">حالات واتساب</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- شاشة التنزيل -->
+    <string name="url_label">رابط الفيديو أو القائمة</string>
+    <string name="url_hint">https://…</string>
+    <string name="inspect">فحص الرابط</string>
+    <string name="inspecting">جارٍ فحص الرابط…</string>
+    <string name="start_download">بدء التنزيل</string>
+    <string name="quality_label">الجودة</string>
+    <string name="subtitles">ترجمة أصلية</string>
+    <string name="playlist">قائمة كاملة</string>
+    <string name="audio_only">صوت فقط (MP3)</string>
+    <string name="unknown_size">حجم غير معروف</string>
+    <string name="inspect_first">افحص الرابط أولاً لاختيار الجودة</string>
+    <string name="paste_url_first">ألصق الرابط أولاً</string>
+    <string name="duplicate_download">هذا التنزيل موجود مسبقاً ولن يتكرر</string>
+    <string name="download_started">بدأ التنزيل في الخلفية</string>
+    <string name="no_formats">لم يتم العثور على صيغ قابلة للتنزيل لهذا الرابط</string>
+    <string name="video_info">معلومات الفيديو</string>
+
+    <!-- التحميلات -->
+    <string name="empty_downloads">لا توجد تحميلات بعد.\nابدأ بتنزيل أول فيديو من شاشة التنزيل.</string>
+    <string name="status_queued">في الانتظار</string>
+    <string name="status_running">جارٍ التنزيل</string>
+    <string name="status_done">مكتمل</string>
+    <string name="status_failed">فشل</string>
+    <string name="status_canceled">ملغى</string>
+    <string name="cancel">إلغاء</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="open">فتح</string>
+    <string name="delete">حذف</string>
+    <string name="saved_to">تم الحفظ في: %1$s</string>
+
+    <!-- حالات واتساب -->
+    <string name="status_title">حالات واتساب المحفوظة</string>
+    <string name="status_desc">اختر مجلد الحالات للوصول إليها على أندرويد 11+</string>
+    <string name="choose_status_folder">اختيار مجلد الحالات</string>
+    <string name="status_folder_none">لم يتم اختيار مجلد بعد</string>
+    <string name="empty_status">لا توجد حالات حالياً.</string>
+    <string name="whatsapp_not_installed">واتساب غير مثبّت على هذا الجهاز.</string>
+    <string name="status_permission_needed">يلزم منح إذن الوصول إلى مجلد الحالات عبر SAF.</string>
+    <string name="save">حفظ</string>
+    <string name="saved">تم الحفظ في التنزيلات</string>
+    <string name="statuses_count">%1$d حالة</string>
+    <string name="status_hidden_hint">ملاحظة: قد يخفي منتقي الملفات المجلدات المخفية. اختر مجلد WhatsApp/Media وسيبحث التطبيق عن .Statuses تلقائياً.</string>
+
+    <!-- الإعدادات -->
+    <string name="theme">السمة</string>
+    <string name="theme_system">حسب النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="save_location">مسار الحفظ</string>
+    <string name="default_location">التنزيلات / MetaVideosBot (افتراضي)</string>
+    <string name="choose_folder">اختيار مجلد</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="cookies">ملفات تعريف الارتباط (Cookies)</string>
+    <string name="cookies_desc">استورد cookies.txt بصيغة Netscape لتحسين الوصول إلى المحتوى المقيّد.</string>
+    <string name="import_cookies">استيراد cookies.txt</string>
+    <string name="cookies_imported">تم استيراد ملف الكوكيز</string>
+    <string name="no_cookies">لا يوجد ملف كوكيز</string>
+    <string name="delete_cookies">حذف الكوكيز</string>
+    <string name="ytdlp">محرك yt-dlp</string>
+    <string name="ytdlp_version">الإصدار: %1$s</string>
+    <string name="update_now">تحديث الآن</string>
+    <string name="updating">جارٍ التحديث…</string>
+    <string name="update_done">تم تحديث yt-dlp بنجاح</string>
+    <string name="update_failed">تعذّر تحديث yt-dlp</string>
+    <string name="clear_history">مسح سجل التحميلات</string>
+    <string name="history_cleared">تم مسح السجل</string>
+    <string name="open_folder">فتح مجلد التنزيلات</string>
+    <string name="about">حول التطبيق</string>
+    <string name="about_text">منزّل وسائط يعمل محلياً بالكامل عبر yt-dlp وFFmpeg المدمجين. لا يوجد خادم خارجي ولا مشاركة تلقائية للملفات.</string>
+
+    <!-- الإشعارات -->
+    <string name="notif_channel_name">تنزيلات الوسائط</string>
+    <string name="notif_channel_desc">تقدم التنزيلات الجارية في الخلفية</string>
+    <string name="notif_channel_update">تحديثات المحرك</string>
+    <string name="notif_preparing">جارٍ التحضير…</string>
+    <string name="notif_downloading">جارٍ تنزيل %1$s</string>
+    <string name="notif_done">اكتمل التنزيل</string>
+    <string name="notif_failed">فشل التنزيل</string>
+    <string name="notif_canceled">تم إلغاء التنزيل</string>
+    <string name="notif_update_done">تم تحديث yt-dlp إلى %1$s</string>
+    <string name="notif_progress_detail">%1$d%% • %2$s • %3$s / %4$s</string>
+    <string name="notif_progress_percent">%1$d%% • %2$s</string>
+
+    <!-- أخطاء -->
+    <string name="ok">حسناً</string>
+    <string name="close">إغلاق</string>
+    <string name="error_429_title">تم حظر الطلبات مؤقتاً (HTTP 429)</string>
+    <string name="error_429_msg">يوتيوب رفض الطلبات لكثرة المحاولات. جرّب:\n\n• الانتظار 15–30 دقيقة قبل إعادة المحاولة.\n• استيراد ملف cookies.txt من الإعدادات.\n• تفعيل تأخير الطلبات (مفعّل افتراضياً).\n• استخدام شبكة أخرى أو VPN.</string>
+    <string name="error_generic">حدث خطأ: %1$s</string>
+    <string name="permission_notifications">فعّل إذن الإشعارات لمتابعة التنزيل خارج التطبيق</string>
+    <string name="no_app_to_open">لا يوجد تطبيق لفتح هذا الملف</string>
+    <string name="folder_selected">تم اختيار المجلد</string>
+    <string name="invalid_url">الرابط غير صالح</string>
+</resources>

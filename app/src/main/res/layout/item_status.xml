@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/status_thumb"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/bg_thumb"
+            android:contentDescription="@string/nav_status"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/status_scrim"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_scrim"
+            app:layout_constraintBottom_toBottomOf="@id/status_thumb"
+            app:layout_constraintEnd_toEndOf="@id/status_thumb"
+            app:layout_constraintStart_toStartOf="@id/status_thumb" />
+
+        <TextView
+            android:id="@+id/status_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="middle"
+            android:maxLines="1"
+            android:textAppearance="?attr/textAppearanceLabelSmall"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@id/status_thumb"
+            app:layout_constraintEnd_toEndOf="@id/status_thumb"
+            app:layout_constraintStart_toStartOf="@id/status_thumb"
+            android:layout_marginBottom="6dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/status_save"
+            style="@style/Widget.Material3.Button.IconButton.Filled"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/save"
+            app:icon="@drawable/ic_download"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

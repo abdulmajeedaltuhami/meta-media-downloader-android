@@ -1,0 +1,8 @@
+{
+  "name": "منزّل الوسائط (Meta Media Downloader)",
+  "description": "تطبيق تنزيل الوسائط وفيديوهات المنصات وحالات WhatsApp مع دعم الجودات والصوت والترجمة.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

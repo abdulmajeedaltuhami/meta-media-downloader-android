@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #07111f;
+  color: #e7eef7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  direction: rtl;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 680px;
+  margin: auto;
+  padding: 20px 14px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 18px 4px 22px;
+}
+
+small {
+  color: #46d5a0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 31px;
+  margin: 8px 0;
+}
+
+h2 {
+  font-size: 19px;
+  margin: 0 0 13px;
+}
+
+p {
+  color: #9fb0c2;
+  margin: 0;
+  line-height: 1.8;
+}
+
+header span {
+  background: #0d2e2a;
+  color: #64e2b3;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9px;
+  margin-bottom: 14px;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  border-radius: 12px;
+  padding: 12px;
+  color: #dce8f4;
+  background: #132438;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+button:hover:not(:disabled) {
+  background: #1b3350;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+nav button {
+  text-align: right;
+  font-size: 13px;
+}
+
+.card {
+  background: #0d1a2a;
+  border: 1px solid #1b3048;
+  border-radius: 18px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 8px 28px #00000033;
+}
+
+label {
+  display: block;
+  color: #aab9c9;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+input:not([type="checkbox"]),
+select {
+  width: 100%;
+  background: #07111f;
+  border: 1px solid #2a405a;
+  border-radius: 11px;
+  color: #eef6ff;
+  padding: 13px;
+  outline: 0;
+  transition: border-color 0.15s;
+}
+
+input:not([type="checkbox"]):focus,
+select:focus {
+  border-color: #10b981;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 11px 0;
+}
+
+.row select {
+  width: 42%;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.check input {
+  cursor: pointer;
+  accent-color: #10b981;
+}
+
+.primary {
+  background: #10b981;
+  color: #032219;
+  font-weight: 800;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.primary:hover:not(:disabled) {
+  background: #0ea572;
+}
+
+#info,
+#log,
+#statuses {
+  margin-top: 12px;
+  color: #a9bbce;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.ok {
+  color: #54e0ae;
+}
+
+.err {
+  color: #ff8290;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #1d3045;
+  padding: 10px 0;
+  gap: 6px;
+}
+
+.status button {
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.status-preview {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.status-icon {
+  width: 36px;
+  height: 36px;
+  background: #132438;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+
+.status-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-size {
+  font-size: 11px;
+  color: #72889e;
+}
+
+.progress-container {
+  width: 100%;
+  height: 6px;
+  background: #132438;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #10b981;
+  transition: width 0.3s ease;
+}
+
+.details-card {
+  background: #091422;
+  border: 1px dashed #1e354f;
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+.details-title {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.details-sub {
+  font-size: 12px;
+  color: #7f95ac;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #162638;
+  font-size: 13px;
+}
+
+.status-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.status-actions button {
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+footer {
+  color: #70869d;
+  text-align: center;
+  font-size: 12px;
+  padding: 18px 0;
+}
+
+@media (max-width: 430px) {
+  nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .row select {
+    width: 100%;
+  }
+}
